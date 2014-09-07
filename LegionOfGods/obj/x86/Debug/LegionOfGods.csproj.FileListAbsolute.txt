@@ -1,0 +1,13 @@
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\bin\Debug\LegionOfGods.exe
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\bin\Debug\LegionOfGods.pdb
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\MainWindow.baml
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\App.g.cs
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\LegionOfGods_MarkupCompile.cache
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\LegionOfGods.g.resources
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\LegionOfGods.Properties.Resources.resources
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\LegionOfGods.exe
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\LegionOfGods.pdb
