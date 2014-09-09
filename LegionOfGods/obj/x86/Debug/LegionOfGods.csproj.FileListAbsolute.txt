@@ -11,3 +11,5 @@ C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\Generat
 C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\LegionOfGods.exe
 C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\LegionOfGods.pdb
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\GameBoardWindow.baml
+C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\GameBoardWindow.g.cs

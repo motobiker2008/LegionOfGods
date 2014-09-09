@@ -1,0 +1,101 @@
+﻿<Window x:Class="LegionOfGods.GameBoardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GameBoardWindow" Height="599" Width="668">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition  MaxHeight="80"/>
+            <RowDefinition />
+            <RowDefinition  MaxHeight="80"/>
+        </Grid.RowDefinitions>
+        
+        
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Image Source="/LegionOfGods;component/Resources/rubashka__kras.png" />
+            <Rectangle Fill="#9B619A61" Grid.Column="0" Grid.Row="0" />
+            <Rectangle Fill="#9BF79A61" Grid.Column="1" Grid.Row="0" />
+            <Label Grid.Row="0" Grid.Column="1" Content="Andrew76" FontSize="18" FontFamily="Traditional Arabic" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            
+            <Label Grid.Row="0" Grid.Column="3" Content="12:0" FontSize="44" FontFamily="Traditional Arabic" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        
+        
+        <Grid  Name="grid" ShowGridLines="True" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition MinHeight="50"/>
+                <RowDefinition MinHeight="50"/>
+                <RowDefinition MinHeight="50"/>
+                <RowDefinition MinHeight="50"/>
+                <RowDefinition MinHeight="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition MinWidth="50"/>
+                <ColumnDefinition MinWidth="50"/>
+                <ColumnDefinition MinWidth="50"/>
+                <ColumnDefinition MinWidth="50"/>
+                <ColumnDefinition MinWidth="50"/>
+                <ColumnDefinition MinWidth="50"/>
+                <ColumnDefinition MinWidth="50"/>
+                <ColumnDefinition MinWidth="50"/>
+                <ColumnDefinition MinWidth="50"/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="5" Grid.ColumnSpan="9" Source="/LegionOfGods;component/Resources/backgroun.jpg" />
+            <Image Source="/LegionOfGods;component/Resources/thor.png" Grid.Row="2" Grid.Column="2" />
+            <!--<Rectangle Fill="#9B619A61" Grid.Column="0" Grid.Row="0" MinWidth="50" MinHeight="50" />
+            <Rectangle Fill="#9BF79A61" Grid.Column="1" Grid.Row="0" />
+            <Rectangle Fill="#9B619A61" Grid.Column="2" Grid.Row="0" />
+            <Rectangle Fill="#9BF79A61" Grid.Column="3" Grid.Row="0" />
+            <Rectangle Fill="#9B619A61" Grid.Column="4" Grid.Row="0" />
+            <Rectangle Fill="#9BF79A61" Grid.Column="5" Grid.Row="0" />
+            <Rectangle Fill="#9B619A61" Grid.Column="6" Grid.Row="0" />
+            <Rectangle Fill="#9BF79A61" Grid.Column="7" Grid.Row="0" />
+            <Rectangle Fill="#9B619A61" Grid.Column="8" Grid.Row="0" />
+
+
+            <Rectangle Fill="#9B619A61" Grid.Column="0" Grid.Row="1" />
+            <Rectangle Fill="#9BF79A61" Grid.Column="1" Grid.Row="1" />
+            <Rectangle Fill="#9B619A61" Grid.Column="2" Grid.Row="1" />
+            <Rectangle Fill="#9BF79A61" Grid.Column="3" Grid.Row="1" />
+            <Rectangle Fill="#9B619A61" Grid.Column="4" Grid.Row="1" />
+            <Rectangle Fill="#9BF79A61" Grid.Column="5" Grid.Row="1" />
+            <Rectangle Fill="#9B619A61" Grid.Column="6" Grid.Row="1" />
+            <Rectangle Fill="#9BF79A61" Grid.Column="7" Grid.Row="1" />
+            <Rectangle Fill="#9B619A61" Grid.Column="8" Grid.Row="1" /> -->
+        </Grid>
+        
+        
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Image Source="/LegionOfGods;component/Resources/thor.png" Grid.Row="0" Grid.Column="2" />
+            <Image Source="/LegionOfGods;component/Resources/thor.png" Grid.Row="0" Grid.Column="1" />
+            <Image Source="/LegionOfGods;component/Resources/thor.png" Grid.Row="0" Grid.Column="3" />
+            <Image Source="/LegionOfGods;component/Resources/thor.png" Grid.Row="0" Grid.Column="0" />
+        </Grid>
+        
+        
+    </Grid>
+</Window>
