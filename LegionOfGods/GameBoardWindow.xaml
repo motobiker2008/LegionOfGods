@@ -1,7 +1,7 @@
 ﻿<Window x:Class="LegionOfGods.GameBoardWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="GameBoardWindow" Height="599" Width="668">
+        Title="Game board window" Height="599" Width="668">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition />

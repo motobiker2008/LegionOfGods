@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\obj\x86\Debug\
+C:\_LegionsOfGods\LegionOfGods\obj\x86\Debug\
 LegionOfGods
 none
 false
 DEBUG;TRACE
-C:\Users\Vladimir\Desktop\CSharp\LegionOfGods\LegionOfGods\App.xaml
-21745844599
+C:\_LegionsOfGods\LegionOfGods\App.xaml
+51761195993
 
-7-406605854
+12-708187885
 12-1381780322
-GameBoardWindow.xaml;MainWindow.xaml;
+About.xaml;ElementInfo.xaml;GameBoardWindow.xaml;MainWindow.xaml;Settings.xaml;
 
 False
 

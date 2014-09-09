@@ -1,0 +1,31 @@
+﻿<Window x:Class="LegionOfGods.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Settings" Height="490" Width="404">
+    <Grid Height="461">
+        <Image HorizontalAlignment="Left" Name="image1" Stretch="Fill" VerticalAlignment="Top" Source="/LegionOfGods;component/Resources/parchmentscroll.png" Height="462" Margin="0,-2,0,0" />
+        <Label Content="Settings:" Margin="135,0,133,0" Name="label1" DataContext="{Binding}" FontSize="20" FontFamily="Copperplate Gothic" FontStretch="Normal" Height="35" VerticalAlignment="Top" />
+        <Image Margin="85,404,187,0" Name="OkButtonImage" Source="/LegionOfGods;component/Resources/Button.png" Stretch="Fill" Height="45" VerticalAlignment="Top" />
+        <Image Margin="201,404,71,0" Name="CancelButtonImage" Source="/LegionOfGods;component/Resources/Button.png" Stretch="Fill" Height="45" VerticalAlignment="Top" />
+        <GroupBox Header="Music" Height="120" HorizontalAlignment="Left" Margin="34,54,0,0" Name="MusicGroupBox" VerticalAlignment="Top" Width="308" FontFamily="Copperplate Gothic" BorderThickness="0.5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="285*" />
+                </Grid.ColumnDefinitions>
+                <CheckBox Margin="109,66,0,0" Name="SoundsChechBox" Opacity="1" Padding="0" HorizontalAlignment="Left" Width="16" Height="20" VerticalAlignment="Top" Grid.Column="1" />
+                <Label Content="Sounds:" Margin="3,63,210,6" Name="label3" FontFamily="Copperplate Gothic" FontSize="13" Grid.Column="1" />
+                <Label Content="Volume:" Margin="3,6,210,57" Name="label2" FontSize="13" FontFamily="Copperplate Gothic" Grid.Column="1" />
+                <Slider Margin="109,6,0,0" Name="VolumeSlider" Height="21" VerticalAlignment="Top" HorizontalAlignment="Left" Width="170" Grid.Column="1" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Graphic" Height="124" HorizontalAlignment="Left" Margin="34,204,0,0" Name="GraphicGroupBox" VerticalAlignment="Top" Width="308" FontFamily="Copperplate Gothic" BorderThickness="0.5">
+            <Grid Height="100">
+                <Label Content="Brightness:" Margin="6,6,187,68" Name="label4" FontSize="13" FontFamily="Copperplate Gothic" />
+                <Label Content="Contrast:" Margin="6,68,195,6" Name="label5" FontSize="13" FontFamily="Copperplate Gothic" />
+                <Slider Margin="110,6,6,68" Name="BrightnessSlider" />
+                <Slider Margin="110,68,6,6" Name="ContrastSlider" />
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

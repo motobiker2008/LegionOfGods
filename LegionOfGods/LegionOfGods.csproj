@@ -55,6 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
+    <Page Include="About.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ElementInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="GameBoardWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -63,9 +74,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="Ability.cs" />
+    <Compile Include="About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ElementInfo.xaml.cs">
+      <DependentUpon>ElementInfo.xaml</DependentUpon>
     </Compile>
     <Compile Include="GameBoardWindow.xaml.cs">
       <DependentUpon>GameBoardWindow.xaml</DependentUpon>
@@ -74,8 +92,13 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Settings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NameAbility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -121,13 +144,11 @@
     <Resource Include="Resources\Button_SETTINGS.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\thor.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\rubashka__kras.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\backgroun.jpg" />
+    <Resource Include="Resources\Back_ElementInfo.jpg" />
+    <Resource Include="Resources\Info.ico" />
+    <Resource Include="Resources\paper.jpg" />
+    <Resource Include="Resources\parchmentscroll.png" />
+    <Resource Include="Resources\Zeus.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

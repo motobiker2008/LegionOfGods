@@ -1,7 +1,7 @@
 ﻿<Window x:Class="LegionOfGods.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="429" Width="642">
+        Title="Legion of Gods" Height="429" Width="642">
     <Grid>
         <Image HorizontalAlignment="Left" Name="image1" Stretch="Fill" VerticalAlignment="Top" Source="/LegionOfGods;component/Resources/back.jpg" />
         <Image Height="296" HorizontalAlignment="Left" Margin="215,57,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="215" Source="/LegionOfGods;component/Resources/scroll.png" />
