@@ -6,26 +6,35 @@ using System.Drawing;
 
 namespace ModelLegionOfGods
 {
+    /// <summary>
+    /// Класс God
+    /// Хранит информацию о боге
+    /// </summary>
     public class God
     {
         private Image image;
+        private String title;
+        private String description;
 
+        /// <summary>
+        /// Свойство содержащее изображение бога
+        ///</summary>
         public Image Image
         {
             get { return image; }
             set { image = value; }
         }
-
-        private String title;
-
+        /// <summary>
+        /// Свойство содержащее имя бога
+        ///</summary>
         public String Title
         {
             get { return title; }
             set { title = value; }
         }
-
-        private String description;
-
+        /// <summary>
+        /// Свойство содержащее описание бога
+        ///</summary>
         public String Description
         {
             get { return description; }
