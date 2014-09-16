@@ -1,0 +1,4 @@
+C:\Users\admin\Documents\GitHub\LegionOfGods\ModelLegionOfGods\bin\Debug\ModelLegionOfGods.dll
+C:\Users\admin\Documents\GitHub\LegionOfGods\ModelLegionOfGods\bin\Debug\ModelLegionOfGods.pdb
+C:\Users\admin\Documents\GitHub\LegionOfGods\ModelLegionOfGods\obj\Debug\ModelLegionOfGods.dll
+C:\Users\admin\Documents\GitHub\LegionOfGods\ModelLegionOfGods\obj\Debug\ModelLegionOfGods.pdb
