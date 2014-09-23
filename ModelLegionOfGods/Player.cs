@@ -67,5 +67,12 @@ namespace ModelLegionOfGods
         public void getCard(Card card)
         {
         }
+        public void playCard(Card card)
+        {
+        }
+
+        public void useSpecialAbilityes(SpecialAbility ability)
+        {
+        }
     }
 }
